@@ -1,7 +1,7 @@
 # From VCF file to mtDNA variants analysis 
 
 
-From VCF to mtDNA Variants is a simple Python project designed to extract mtDNA variants from a VCF file and filter them based on frequency in HelixMTdb (https://www.helix.com/pages/mitochondrial-variant-database), MITOMAP (https://www.mitomap.org/MITOMAP) and Mitimpact 3D (https://mitimpact.css-mendel.it/). The scripts provides an efficient way to analyse and process genetic variant data, allowing to focus on specific variants of interest. Designed for people not experienced in analysing mt DNA variants.
+From VCF to mtDNA Variants is a simple Python project designed to extract mtDNA variants from a VCF file and filter them based on frequency in HelixMTdb (https://www.helix.com/pages/mitochondrial-variant-database), MITOMAP (https://www.mitomap.org/MITOMAP) and Mitimpact 3D (https://mitimpact.css-mendel.it/). The scripts provides an efficient way to analyse and process genetic variant data, allowing to focus on specific variants of interest. Designed for people not experienced in analysing mtDNA variants.
 
 # Features:
 - Variant extraction: The script reads a VCF file and extracts relevant variant information including chromosome, position, reference allele, alternative allele, VAF and coverage.
