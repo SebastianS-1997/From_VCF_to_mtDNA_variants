@@ -4,7 +4,7 @@
 From VCF to mtDNA Variants is a simple Python project designed to extract mtDNA variants from a VCF file and filter them based on frequency in HelixMTdb (https://www.helix.com/pages/mitochondrial-variant-database), MITOMAP (https://www.mitomap.org/MITOMAP) and Mitimpact 3D (https://mitimpact.css-mendel.it/). The scripts provides an efficient way to analyse and process genetic variant data, allowing to focus on specific variants of interest. Designed for people not experienced in analysing mtDNA variants.
 
 # Features:
-- Variant extraction: The script reads a VCF file and extracts relevant variant information including chromosome, position, reference allele, alternative allele, VAF and coverage.
+- Variant extraction: The script reads a VCF file and extracts relevant variant information including chromosome, position, reference allele, alternative allele, VAF and coverage. (deepvariant format preferred)
 - Frequency filtering: The extracted variants are filtered based on their frequency in the HelixMTdb database. The script uses this information to prioritise variants based on their prevalence in the population.
 - Filtering for deleterious characters: Variants are filtered based on their confirmed pathogenic character based on Mitomap's Confirmed Pathogenic Mutations (https://www.mitomap.org/foswiki/bin/view/MITOMAP/ConfirmedMutations) and only for protein-coding gene prediction from Mitimpact 3D.
 - Output: The filtered variants are saved in .xslx format.
